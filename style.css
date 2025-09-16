@@ -1,0 +1,32 @@
+html {
+    align-items: center;
+    background-color: black;
+}
+
+#calculator {
+    border: solid 1px black;
+    width: 300px;
+}
+
+#display {
+    background-color: #6661e7;
+    width: 292px;
+    height: 50px;
+    font-size: 30px;
+}
+
+#key {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 300px;
+}
+
+button {
+    background-color: #221e92;
+    color: white;
+    font-size: 20px;
+}
+
+#equal-sign {
+    background-color: #131151;
+}
