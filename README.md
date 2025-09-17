@@ -5,4 +5,5 @@ The HTML structure of the project organizes the calculator into a display area a
 
 Overall, this project was created as a practice exercise in DOM manipulation, event handling, and layout design. It demonstrates how HTML, CSS, and JavaScript can work together to build a small interactive application that is both functional and visually consistent.
 
-<img width="1365" height="718" alt="Screenshot 2025-09-16 145134" src="https://github.com/user-attachments/assets/8f5fc2c9-be4d-4b11-a40b-9b6e53c012b4" />
+<img width="1365" height="688" alt="Screenshot 2025-09-17 184119" src="https://github.com/user-attachments/assets/25b1ccd0-487d-495e-9c4b-6ab6152a4b52" />
+
