@@ -1,5 +1,4 @@
 html {
-    align-items: center;
     background-color: black;
 }
 
@@ -15,16 +14,41 @@ html {
     font-size: 30px;
 }
 
-#key {
+#first-key {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    height: 300px;
+    height: 60px;
+}
+
+#second-key {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 60px;
+}
+
+#third-key {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 60px;
+}
+
+#fourth-key {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 60px;
+}
+
+#fifth-key {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 60px;
 }
 
 button {
     background-color: #221e92;
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }
 
 #equal-sign {
