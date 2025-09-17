@@ -8,23 +8,33 @@
 </head>
 <body>
     <div id="calculator">
-        <input id="display" readonly>
-        <div id="key">
-            <button onclick="appendToDisplay('7')">7</button>
-            <button onclick="appendToDisplay('8')">8</button>
-            <button onclick="appendToDisplay('9')">9</button>
-            <button onclick="appendToDisplay('/')">÷</button>
-            <button onclick="appendToDisplay('4')">4</button>
-            <button onclick="appendToDisplay('5')">5</button>
-            <button onclick="appendToDisplay('6')">6</button>
-            <button onclick="appendToDisplay('*')">×</button>
-            <button onclick="appendToDisplay('1')">1</button>
-            <button onclick="appendToDisplay('2')">2</button>
-            <button onclick="appendToDisplay('3')">3</button>
-            <button onclick="appendToDisplay('-')">-</button>
-            <button onclick="clearDisplay()">C</button>
-            <button onclick="appendToDisplay('0')">0</button>
-            <button onclick="appendToDisplay('+')">+</button>
+        <input aria-label="display" id="display" readonly>
+        <div id="first-key">
+            <button onclick="appendToDisplay('7')" class="click">7</button>
+            <button onclick="appendToDisplay('8')" class="click">8</button>
+            <button onclick="appendToDisplay('9')" class="click">9</button>
+            <button onclick="appendToDisplay('/')" class="click">÷</button>
+        </div>
+        <div id="second-key">
+            <button onclick="appendToDisplay('4')" class="click">4</button>
+            <button onclick="appendToDisplay('5')" class="click">5</button>
+            <button onclick="appendToDisplay('6')" class="click">6</button>
+            <button onclick="appendToDisplay('*')" class="click">×</button>
+        </div>
+        <div id="third-key">
+            <button onclick="appendToDisplay('1')" class="click">1</button>
+            <button onclick="appendToDisplay('2')" class="click">2</button>
+            <button onclick="appendToDisplay('3')" class="click">3</button>
+            <button onclick="appendToDisplay('-')" class="click">-</button>
+        </div>
+        <div id="fourth-key">
+            <button onclick="clearDisplay()">Clear</button>
+            <button onclick="appendToDisplay('0')" class="click">0</button>
+            <button onclick="deleteDisplay()" class="click">Delete</button>
+            <button onclick="appendToDisplay('+')" class="click">+</button>
+        </div>
+        <div id="fifth-key">
+            <button id="coma" onclick="appendToDisplay('.')" class="click">,</button>
             <button id="equal-sign" onclick="calculate()">=</button>
         </div>
     </div>
